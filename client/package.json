@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build --base=/solana-example",
-    "postbuild": "cp -r dist ../docs",
+    "postbuild": "rm -rf ../docs && cp -rf dist ../docs",
     "preview": "vite preview"
   },
   "dependencies": {
