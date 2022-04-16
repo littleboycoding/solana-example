@@ -1,5 +1,7 @@
 # Solana Example
 
+![Thumbnail](./thumbnail.png)
+
 Simple Solana program with frontend that let users increment counter, state is stored on-chain.
 
 ## Development
