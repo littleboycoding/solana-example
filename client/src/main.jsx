@@ -5,7 +5,7 @@ import "./index.css";
 import { ChakraProvider } from "@chakra-ui/react";
 
 import { Buffer } from "buffer/";
-window.Buffer = window.Buffer || Buffer;
+globalThis.Buffer = globalThis.Buffer || Buffer;
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
