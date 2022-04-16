@@ -8,7 +8,8 @@ Simple Solana program with frontend that let users increment counter, state is s
 # in program/
 $ make
 $ solana-test-validator
-$ solana program deploy -k program_keypair.json -u localhost dist/program.so
+# In new terminal
+$ solana program deploy -u localhost dist/program.so
 
 # in client/
 $ npm run dev
