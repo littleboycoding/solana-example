@@ -4,6 +4,8 @@
 
 Simple Solana program with frontend that let users increment counter, state is stored on-chain.
 
+**Live example** is hosted on [GitHub Page](https://littleboycoding.github.io/solana-example/) (Devnet cluster)
+
 ## Development
 
 ```sh
