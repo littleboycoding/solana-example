@@ -1,4 +1,5 @@
 import {
+    clusterApiUrl,
   Connection,
   LAMPORTS_PER_SOL,
   PublicKey,
@@ -13,7 +14,7 @@ const SEED = "counter";
 const PROGRAM_ID = new PublicKey(
   "8PTS2473xFhTwppTtr6gnRjozX9WGgM6tvkTrih6kY5J"
 );
-const connection = new Connection("http://localhost:8899");
+const connection = new Connection(clusterApiUrl("devnet"));
 
 export async function initializeAccount(pubKey) {
   const counterKey = await PublicKey.createWithSeed(pubKey, SEED, PROGRAM_ID);
